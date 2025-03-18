@@ -11,4 +11,6 @@ https://sepolia.etherscan.io/address/0x64cDe5a4bf11B094077708fB35d33002E495568B
 
 
 # My smart contract can be verified here
-https://sepolia.etherscan.io/token/0x586a5a3341c03821fa1838e6b83a53dc79d80745
+https://sepolia.etherscan.io/token/[addressContract]
+
+### npx hardhat verify --network sepolia [adressContract] [ArgumentConstructor]

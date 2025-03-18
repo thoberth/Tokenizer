@@ -1,16 +1,19 @@
-# Documentation
-https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
-http://eips.ethereum.org/EIPS/eip-20
+# hitmanTokenizer42
+* I decide to create a smart contract representing a **hitmanContract**
 
-# BlockChain is Sepolia TestNet
-We can receive faucet to deploy for free our smart contract here
-https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+## Choice of BlockChain is Sepolia TestNet (Google)
+* To deploy and make test i choose Sepolia because:
+  1. It's free and easy to obtain Faucet for test (ETH for testing)
+  2. Unlike BNB Chain i dont need to join a discord or pay 0.002 ETH ...
+  3. It's an Ethereum BlockChain so there's a lot of Documentation
 
-# This is the page where you can find my wallet
-https://sepolia.etherscan.io/address/0x64cDe5a4bf11B094077708fB35d33002E495568B
+## Which Technology i used
+* I used node package to manage and deploy my Smart Contract
+* Two npm packages are known for that : Truffle and Hardhat package
+  1. I choose Hardhat cause it implement a easy way to verify and publish Smart Contract
 
+## Wallet Creation
+* **Metamask.io**. Who else ?
 
-# My smart contract can be verified here
-https://sepolia.etherscan.io/token/[addressContract]
-
-### npx hardhat verify --network sepolia [adressContract] [ArgumentConstructor]
+## BlockChain navigator
+* **Etherscan.io** Here too! Who else ?
